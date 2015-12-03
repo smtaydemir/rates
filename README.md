@@ -4,7 +4,7 @@ Get current exchange rates directly from your terminal!
 # install
 
 ```
-  npm install -g rates
+npm install -g rates
 ```
 
 # use
