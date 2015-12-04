@@ -60,5 +60,5 @@ rates -f eur -t usd -a 42
 [dep-url]: https://github.com/smtaydemir/rates
 [devdep-image]: https://img.shields.io/david/dev/smtaydemir/rates.svg?style=flat-square
 [devdep-url]: https://github.com/smtaydemir/rates
-[license-image]: https://img.shields.io/github/license/smtaydemir/rates.svg?style=flat-square
+[license-image]: https://img.shields.io/npm/l/rates.svg?style=flat-square
 [license-url]: https://opensource.org/licenses/MIT
