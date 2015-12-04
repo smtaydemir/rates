@@ -1,14 +1,15 @@
 {
   "name": "rates",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Get current exchange rates directly from your terminal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests"
   },
   "bin": {
     "rates": "./bin/rates.js"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smtaydemir/rates.git"
@@ -18,14 +19,32 @@
     "current",
     "exchange"
   ],
-  "author": "Samet Aydemir <sametaydemir@yandex.com>",
+  "author": {
+    "name": "Samet Aydemir",
+    "email": "sametaydemir@yandex.com",
+    "url": "http://sametaydemir.com"
+  },
+  "contributors": [
+    {
+      "name": "Gökay Gürcan",
+      "email": "info@gokaygurcan.com",
+      "url": "https://www.gokaygurcan.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smtaydemir/rates/issues"
   },
   "homepage": "https://github.com/smtaydemir/rates",
   "dependencies": {
+    "cheerio": "^0.19.0",
     "colors": "^1.1.2",
-    "request": "^2.64.0"
+    "commander": "^2.9.0",
+    "request": "^2.64.0",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.2.5"
   }
 }
