@@ -16,6 +16,12 @@ Get current exchange rates directly from your terminal!
 [sudo] npm install -g rates
 ```
 
+## update
+
+```bash
+[sudo] npm update -g rates
+```
+
 ## use
 
 ```bash
