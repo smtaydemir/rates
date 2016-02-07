@@ -37,17 +37,7 @@ rates -h
     -p, --provider [google|yahoo|ecb]  provider name like Google, Yahoo, European Central Bank (optional)
 ```
 
-```bash
-rates -f usd -t eur
-```
-
-![cat](https://raw.githubusercontent.com/smtaydemir/rates/master/ss1.png)
-
-```bash
-rates -f eur -t usd -a 42 
-```
-
-![cat](https://raw.githubusercontent.com/smtaydemir/rates/master/ss2.png)
+[![asciicast](https://asciinema.org/a/35786.png)](https://asciinema.org/a/35786)
 
 
 [npm-image]: https://img.shields.io/npm/v/rates.svg?style=flat-square
